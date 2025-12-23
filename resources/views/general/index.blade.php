@@ -12,8 +12,8 @@
           <span style="color: #6499E9; margin-top: 0px">Tanpa</span> Batas
         </div>
         <p class="urbanist-medium mt-4" style="font-color: #7F7F7F;">
-          SMAM7 library adalah website yang menyediakan akses peminjaman atau pengembalian materi bacaan dan sumber
-          pengetahuan. SMAM7 library hadir untuk memudahkan pembelajaran dan eksplorasi pengetahuan.
+          Perpustakan Digital UNPAK adalah website yang menyediakan akses peminjaman atau pengembalian materi bacaan dan sumber
+          pengetahuan. Perpustakan Digital UNPAK hadir untuk memudahkan pembelajaran dan eksplorasi pengetahuan.
         </p>
 
         <a href="{{route('dashboard')}}" style="background-color: #6499E9; margin-top: 80px; font-size: 16px;"

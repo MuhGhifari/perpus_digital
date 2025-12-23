@@ -122,10 +122,10 @@
     <!--begin::Sidebar Brand-->
     <div class="sidebar-brand">
         <!--begin::Brand Link--> <a href=" {{ route('dashboard') }} " class="brand-link">
-            <!--begin::Brand Image--> <img src="/img/icon/ic_logo_smam7.png" alt="SMA Muhamamdiyah 7 Logo"
+            <!--begin::Brand Image--> <img src="/img/icon/logo_unpak.png" alt="Universitas Pakuan Logo"
                 class="brand-image opacity-75 shadow">
             <!--end::Brand Image-->
-            <!--begin::Brand Text--> <span class="brand-text fw-light">Perpus Digital SMAM 7</span>
+            <!--begin::Brand Text--> <span class="brand-text fw-light">PERPUSTAKAAN</span>
             <!--end::Brand Text-->
         </a>
         <!--end::Brand Link-->

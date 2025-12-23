@@ -4,7 +4,7 @@
     @include('components.nav')
 
     <div class="text-center mt-5">
-        <span class="amaranth-bold" style="color: white; font-size: 80px;">Galery<br/>SMAM7 Library</span>
+        <span class="amaranth-bold" style="color: white; font-size: 80px;">Galery<br/>Perpustakan Digital UNPAK</span>
     </div>
 
     <div style="position: absolute; z-index: -99; top: 80px; left: 0; width: 100%; height: 100%;">
