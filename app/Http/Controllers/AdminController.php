@@ -43,7 +43,7 @@ class AdminController extends BaseController
       'categories' => ['']
     ]);
 
-    $imageName = time() . '.' . $request->cover->extension();
+    $imageName = time() . '_' . uniqid() . '.' . $request->cover->extension();
     $image = $request->file('cover');
     $image->storeAs('public/covers', $imageName);
 
