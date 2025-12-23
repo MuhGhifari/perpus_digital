@@ -23,6 +23,7 @@ class User extends Authenticatable
         'nisn',
         'name',
         'password',
+        'role',
     ];
 
     /**
