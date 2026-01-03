@@ -2,7 +2,6 @@
 
 <p align="center">
     E-Library yang dibangun dengan Laravel 11 dan Bootstrap 5.
-    <br/>Link desain dapat diakses <a href="https://www.figma.com/design/OwJoPM00Iyg0LKcgKhCaYA/KP-SMAM7?node-id=0-1&t=fr9arhrDUSqdgzYt-0">di sini</a>
 </p>
 
 <h3>Fitur</h3>
@@ -113,21 +112,21 @@ MIT License
 
 Copyright (c) 2020 Ainul
 
-Izin diberikan secara gratis, kepada siapa saja yang memperoleh salinan
-perangkat lunak ini dan file dokumentasi terkait ("Perangkat Lunak"), untuk
-bertransaksi dalam Perangkat Lunak tanpa batasan, termasuk hak untuk
-menggunakan, menyalin, mengubah, menggabungkan, mempublikasikan, mendistribusikan,
-mensublisensikan, dan/atau menjual salinan Perangkat Lunak, serta mengizinkan
-orang yang diberikan Perangkat Lunak untuk melakukannya, dengan syarat berikut:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan dalam
-setiap salinan atau bagian substansial dari Perangkat Lunak.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-PERANGKAT LUNAK INI DIBERIKAN "APA ADANYA", TANPA JAMINAN APA PUN, BAIK TERSURAT
-MAUPUN TERSIRAT, TERMASUK NAMUN TIDAK TERBATAS PADA JAMINAN DIPERDAGANGKAN,
-KESESUAIAN UNTUK TUJUAN TERTENTU DAN BEBAS PELANGGARAN. DALAM HAL APA PUN
-PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB ATAS KLAIM, KERUSAKAN
-ATAU KEWAJIBAN LAIN, BAIK DALAM TINDAKAN KONTRAK, KESALAHAN ATAU LAINNYA,
-YANG TIMBUL DARI, KELUAR DARI ATAU SEHUBUNGAN DENGAN PERANGKAT LUNAK ATAU
-PENGGUNAAN ATAU TRANSAKSI LAIN DALAM PERANGKAT LUNAK.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
