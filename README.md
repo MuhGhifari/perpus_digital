@@ -1,81 +1,112 @@
 <h1 align="center">Perpus Digital</h1>
 
 <p align="center">
-    E-Library built with Laravel 11 and bootstrap 5.
-    <br/>The design link can be accessed <a href="https://www.figma.com/design/OwJoPM00Iyg0LKcgKhCaYA/KP-SMAM7?node-id=0-1&t=fr9arhrDUSqdgzYt-0">here</a>
+    E-Library yang dibangun dengan Laravel 11 dan Bootstrap 5.
 </p>
 
-<h3>Users</h3>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/ai-null/perpus_digital/master/public/img/demo/index.png" width="30%" />
-    <img src="https://raw.githubusercontent.com/ai-null/perpus_digital/master/public/img/demo/contacts.png" width="30%" />
-    <img src="https://raw.githubusercontent.com/ai-null/perpus_digital/master/public/img/demo/login.png" width="30%" />
-    <img src="https://raw.githubusercontent.com/ai-null/perpus_digital/master/public/img/demo/register.png" width="30%" />
-    <img src="https://raw.githubusercontent.com/ai-null/perpus_digital/master/public/img/demo/dashboard.png" width="30%" />
-    <img src="https://raw.githubusercontent.com/ai-null/perpus_digital/master/public/img/demo/book_detail.png" width="30%" />
-</p>
-
-<h3>Admins</h3>
-<p align="center">
-    <img width="30%" alt="image" src="https://github.com/user-attachments/assets/0278e453-9b93-4d38-b850-fe2659fc4647" />
-    <img width="30%" alt="image" src="https://github.com/user-attachments/assets/f70ff3c0-5543-4793-8ba4-241c9142623d" />
-    <img width="30%" alt="image" src="https://github.com/user-attachments/assets/ab3eb78c-b844-4c51-833b-f8b2e846b499" />
-    <img width="30%" alt="image" src="https://github.com/user-attachments/assets/fced4827-0afc-435c-8b16-7373f61bf7b7" />
-</p>
-
-<br />
-
-## Features
-- Users :
-    - book catalog dashboard
-    - book borrowing transaction
-    - search & filter book by its categories
-- Admins :
-    - analytics for book transaction
-    - book reservation transaction management
-    - categories management
-    - books management
+<h3>Fitur</h3>
+<ul>
+    <li>Pengguna :
+        <ul>
+            <li>Dashboard katalog buku</li>
+            <li>Transaksi peminjaman buku</li>
+            <li>Pencarian & filter buku berdasarkan kategori</li>
+        </ul>
+    </li>
+    <li>Admin :
+        <ul>
+            <li>Analitik transaksi buku</li>
+            <li>Manajemen transaksi reservasi buku</li>
+            <li>Manajemen kategori</li>
+            <li>Manajemen buku</li>
+        </ul>
+    </li>
+</ul>
 
 <br/>
 
-## Prerequisite
+## Prasyarat
 * Laravel 11
 * PHP 8.2+
 * MySQL 8.3+
-* AWS S3 Configuration
+* Konfigurasi AWS S3
 
 <br/>
 
-## How to build
-1. Git clone this repo
-   
-   ```$ git clone https://github.com/ai-null/perpus_digital.git```
-2. Run composer install to install dependencies
-   
-   ```$ composer install```
-3. Run migrate
-   
-   ```$ php artisan migrate:fresh```
-4. (Optional) run seeder
-   
-   ```$ php artisan db:seed```
-5. Run the program
+## Cara Menjalankan
 
-   ```$ php artisan serve```
+1. Kloning repositori ini
 
+   ```bash
+   git clone https://github.com/ai-null/perpus_digital.git
+   ```
+
+2. Masuk ke direktori proyek
+
+   ```bash
+   cd perpus_digital
+   ```
+
+3. Install dependensi dengan composer
+
+   ```bash
+   composer install
+   ```
+
+4. Jalankan migrasi database
+
+   ```bash
+   php artisan migrate:fresh
+   ```
+
+5. (Opsional) Jalankan seeder
+
+   ```bash
+   php artisan db:seed
+   ```
+
+6. Jalankan aplikasi
+
+   ```bash
+   php artisan serve
+   ```
 
 <br/>
 
+### Menjalankan dengan Docker (Laravel Sail)
 
-## Depedencies
-| Library | Description |
+1. Pastikan Docker sudah terinstall di komputer Anda.
+2. Copy file `.env.example` menjadi `.env` dan sesuaikan konfigurasi jika diperlukan.
+3. Install dependensi menggunakan Sail
+
+   ```bash
+   ./vendor/bin/sail up -d
+   ./vendor/bin/sail composer install
+   ```
+
+4. Jalankan migrasi database
+
+   ```bash
+   ./vendor/bin/sail artisan migrate:fresh
+   ```
+
+5. (Opsional) Jalankan seeder
+
+   ```bash
+   ./vendor/bin/sail artisan db:seed
+   ```
+
+<br/>
+
+## Dependensi
+| Library | Deskripsi |
 | ------  | ----------- |
-| [FakerPHP](https://fakerphp.org/) | for database seeding |
-| [FileSystem AWS S3](https://packagist.org/packages/league/flysystem-aws-s3-v3) | for storing image assets |
+| [FakerPHP](https://fakerphp.org/) | untuk seeding database |
+| [FileSystem AWS S3](https://packagist.org/packages/league/flysystem-aws-s3-v3) | untuk penyimpanan aset gambar |
 
 <br/>
 
-## License
+## Lisensi
 ```
 MIT License
 

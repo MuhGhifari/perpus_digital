@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> {{ config('app.name') }} Admin </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="SMAM 7 Perpus Digital Dashboard">
+    <meta name="title" content="UNPAK Perpus Digital Dashboard">
     <!--end::Primary Meta Tags--><!--begin::Fonts-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
         integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q=" crossorigin="anonymous">
@@ -32,7 +32,7 @@
         @yield('content')
 
         <footer class="app-footer"> <!--begin::To the end-->
-            <div class="float-end d-none d-sm-inline">SMA Muhammadiyah 7 Surabaya.</div> <!--end::To the end-->
+            <div class="float-end d-none d-sm-inline">Universitas Pakuan Bogor</div> <!--end::To the end-->
             <!--begin::Copyright--> <strong>
                 Copyright &copy; 2024&nbsp;
                 

@@ -86,7 +86,11 @@
                                                     {{  date('F j, Y', strtotime($data->created_at)) }}
                                                 </td>
                                                 <td class="urbanist-medium" style="font-size: 16px; color: #7F7F7F;">
-                                                    {{  date('F j, Y', strtotime($data->return_at)) }}
+                                                    @if($data->return_at)
+                                                        {{ date('F j, Y', strtotime($data->return_at)) }}
+                                                    @else
+                                                        -
+                                                    @endif
                                                 </td>
                                                 <td class="urbanist-medium" style="font-size: 16px; color: #7F7F7F;">
                                                     @switch($data->status)

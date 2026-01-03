@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(CategorySeeder::class);
         $this->call(UserSeeder::class);
+        $this->call(BookSeeder::class);
+        $this->call(PeminjamanSeeder::class);
 
         // for ($i = 0; $i < 35; $i++) {
         //     $this->call(BookSeeder::class);

@@ -6,6 +6,7 @@ use Hash;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\User;
+use Faker\Factory as Faker;
 
 class UserSeeder extends Seeder
 {
@@ -14,17 +15,33 @@ class UserSeeder extends Seeder
    */
   public function run(): void
   {
-    $admin = User::create([
-      'name' => 'Muhammad Ghifari',
-      'nisn' => '065123020',
-      'password' => Hash::make('12345678'),
+    // Create users from akun.demo
+    User::create([
+      'name' => 'MOCHAMMAD AINUL YAQIN',
+      'npm' => '065123001',
+      'password' => Hash::make('yaqinganteng'),
+      'role' => 'm',
+    ]);
+
+    User::create([
+      'name' => 'PUTRI FATIKHATUL JANNAH',
+      'npm' => '065123002',
+      'password' => Hash::make('putricantik'),
+      'role' => 'm',
+    ]);
+
+    User::create([
+      'name' => 'admin123',
+      'npm' => '065123003',
+      'password' => Hash::make('adminadmin'),
       'role' => 'a',
     ]);
-    
-    $user = User::create([
-      'name' => 'Ajiel',
-      'nisn' => '065123021',
-      'password' => Hash::make('87654321'),
+
+    User::create([
+      'name' => 'KENOLA',
+      'npm' => '065123004',
+      'password' => Hash::make('kenolajelek'),
+      'role' => 'm',
     ]);
   }
 }

@@ -77,7 +77,11 @@
                             {{  date('F j, Y', strtotime($book->pivot->created_at)) }}
                             </td>
                             <td class="urbanist-medium" style="font-size: 16px; color: #7F7F7F;"> 
-                                {{  date('F j, Y', strtotime($book->pivot->return_at)) }}
+                                @if($book->pivot->return_at)
+                                    {{ date('F j, Y', strtotime($book->pivot->return_at)) }}
+                                @else
+                                    -
+                                @endif
                             </td>
                             <td class="urbanist-medium" style="font-size: 16px; color: #7F7F7F;">
                                 @switch($book->pivot->status)
