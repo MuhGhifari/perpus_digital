@@ -15,32 +15,33 @@ class UserSeeder extends Seeder
    */
   public function run(): void
   {
-    $faker = Faker::create('id_ID'); // Use Indonesian locale
-
-    // Create admin user
-    $admin = User::create([
-      'name' => 'Muhammad Ghifari',
-      'npm' => '065123020',
-      'password' => Hash::make('12345678'),
-      'role' => 'a',
-    ]);
-    
-    // Create one specific user
-    $user = User::create([
-      'name' => 'Ajiel',
-      'npm' => '065123021',
-      'password' => Hash::make('87654321'),
+    // Create users from akun.demo
+    User::create([
+      'name' => 'MOCHAMMAD AINUL YAQIN',
+      'npm' => '065123001',
+      'password' => Hash::make('yaqinganteng'),
       'role' => 'm',
     ]);
 
-    // Create additional fake users
-    for ($i = 0; $i < 50; $i++) {
-      User::create([
-        'name' => $faker->name(),
-        'npm' => $faker->unique()->numerify('065######'),
-        'password' => Hash::make('password123'), // Default password for all fake users
-        'role' => 'm', // All fake users are members
-      ]);
-    }
+    User::create([
+      'name' => 'PUTRI FATIKHATUL JANNAH',
+      'npm' => '065123002',
+      'password' => Hash::make('putricantik'),
+      'role' => 'm',
+    ]);
+
+    User::create([
+      'name' => 'admin123',
+      'npm' => '065123003',
+      'password' => Hash::make('adminadmin'),
+      'role' => 'a',
+    ]);
+
+    User::create([
+      'name' => 'KENOLA',
+      'npm' => '065123004',
+      'password' => Hash::make('kenolajelek'),
+      'role' => 'm',
+    ]);
   }
 }
