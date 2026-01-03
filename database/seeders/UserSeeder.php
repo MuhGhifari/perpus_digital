@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
     // Create admin user
     $admin = User::create([
       'name' => 'Muhammad Ghifari',
-      'nisn' => '065123020',
+      'npm' => '065123020',
       'password' => Hash::make('12345678'),
       'role' => 'a',
     ]);
@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
     // Create one specific user
     $user = User::create([
       'name' => 'Ajiel',
-      'nisn' => '065123021',
+      'npm' => '065123021',
       'password' => Hash::make('87654321'),
       'role' => 'm',
     ]);
@@ -37,7 +37,7 @@ class UserSeeder extends Seeder
     for ($i = 0; $i < 50; $i++) {
       User::create([
         'name' => $faker->name(),
-        'nisn' => $faker->unique()->numerify('065######'),
+        'npm' => $faker->unique()->numerify('065######'),
         'password' => Hash::make('password123'), // Default password for all fake users
         'role' => 'm', // All fake users are members
       ]);

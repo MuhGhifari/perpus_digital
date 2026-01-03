@@ -28,15 +28,15 @@
           <form action="{{ route('register') }}" method="post" style="margin-top: 52px;">
             @csrf
             <div class="mb-3">
-              <label for="nisn" class="form-label">NISN</label>
-              <input type="number" class="form-control" required name="nisn" placeholder="Masukkan NISN" id="nisn"
-                aria-describedby="nisn-input">
+              <label for="npm" class="form-label">NPM</label>
+              <input type="number" class="form-control" required name="npm" placeholder="Masukkan NPM" id="npm"
+                aria-describedby="npm-input">
             </div>
 
             <div class="mb-3">
-              <label for="nisn" class="form-label">Nama Lengkap</label>
+              <label for="nama" class="form-label">Nama Lengkap</label>
               <input type="text" class="form-control" required name="name" placeholder="Masukkan Nama Lengkap" id="nama"
-                aria-describedby="nisn-input">
+                aria-describedby="nama-input">
             </div>
 
             <div class="row mb-3">

@@ -14,7 +14,7 @@ return new class extends Migration
     {
         Schema::create('user', function (Blueprint $table) {
             $table->id();
-            $table->string('nisn')->unique();
+            $table->string('npm')->unique();
             $table->string('name');
             $table->string('password');
             $table->rememberToken();

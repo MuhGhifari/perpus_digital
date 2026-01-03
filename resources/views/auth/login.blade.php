@@ -28,9 +28,9 @@
           <form method="post" action="{{ route('login') }}" autocomplete="on" style="margin-top: 52px;">
             @csrf
             <div class="mb-3">
-              <label for="nisn" class="form-label">NISN</label>
-              <input type="number" name="nisn" class="form-control" placeholder="Masukkan NISN" id="nisn"
-                aria-describedby="nisn-input">
+              <label for="npm" class="form-label">NPM</label>
+              <input type="number" name="npm" class="form-control" placeholder="Masukkan NPM" id="npm"
+                aria-describedby="npm-input">
             </div>
 
             <div class="mb-3">
