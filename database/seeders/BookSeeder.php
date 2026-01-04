@@ -90,6 +90,7 @@ class BookSeeder extends Seeder
       $book = Book::create([
         'title' => $bookData['title'],
         'author' => $bookData['author'],
+        'stock' => rand(2, 5),
         'description' => $bookData['description'],
         'publisher' => $bookData['publisher'],
         'cover' => $imageName,
