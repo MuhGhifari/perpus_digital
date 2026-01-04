@@ -33,6 +33,27 @@
 
 <br/>
 
+## Tampilan Website 
+
+Contoh halaman aplikasi:
+
+<div align="center">
+   <img src="public/img/demo/index.png" alt="Halaman Utama" width="400" />
+   <br/><em>Halaman Utama</em>
+   <br/><br/>
+   <img src="public/img/demo/dashboard.png" alt="Dashboard" width="400" />
+   <br/><em>Dashboard Pengguna</em>
+   <br/><br/>
+   <img src="public/img/demo/book_detail.png" alt="Detail Buku" width="400" />
+   <br/><em>Detail Buku</em>
+   <br/><br/>
+   <img src="public/img/demo/login.png" alt="Login" width="400" />
+   <br/><em>Halaman Login</em>
+   <br/><br/>
+   <img src="public/img/demo/register.png" alt="Register" width="400" />
+   <br/><em>Halaman Register</em>
+</div>
+
 ## Cara Menjalankan
 
 1. Kloning repositori ini
