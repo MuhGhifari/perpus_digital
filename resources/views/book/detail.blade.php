@@ -83,7 +83,7 @@
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
                     <form action="{{ route('book.borrow', base64_encode($book->id)) }}" method="POST">
                         @csrf
-                        <button type="submit" class="btn btn-primary">Pinjam</button>
+                        <button type="submit" class="btn btn-primary" @if($book->stock == 0) disabled @endif>Pinjam</button>
                     </form>
                 </div>
             </div>
